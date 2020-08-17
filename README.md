@@ -3,4 +3,5 @@ A standard 17-key numpad in 5x4 config, num lock indicator LED, and a media volu
 * Author: [Quang Truong](https://github.com/lquang4321) 
 * Version: 1 
 
-Make example: make my_keyboard:default
+Make example: 
+    make my_keyboard:default
