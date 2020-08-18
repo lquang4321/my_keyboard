@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\QT\OneDrive\GitHub\my_keyboard\KiCAD\my_keyboard.sch</source>
-    <date>8/18/2020 3:21:29 PM</date>
+    <date>8/18/2020 4:02:51 PM</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -304,6 +304,9 @@
       <value>16MHz</value>
       <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Parts">C13738</field>
+      </fields>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F63EFC3</tstamp>
