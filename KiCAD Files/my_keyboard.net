@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\QT\\OneDrive\\GitHub\\my_keyboard\\KiCAD Files\\my_keyboard.sch")
-    (date "8/17/2020 11:08:22 PM")
+    (date "8/17/2020 11:44:56 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
