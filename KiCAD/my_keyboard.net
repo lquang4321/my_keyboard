@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\QT\\OneDrive\\GitHub\\my_keyboard\\KiCAD Files\\my_keyboard.sch")
-    (date "8/18/2020 11:55:01 AM")
+    (date "8/18/2020 3:06:20 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -128,6 +128,8 @@
       (value SW_Push)
       (footprint Button_Switch_SMD:SW_PUSH_4_5.1x5.1mm)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C318884))
       (libsource (lib Switch) (part SW_Push) (description "Push button switch, generic, two pins"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F3630E0))
@@ -183,6 +185,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C25804))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4B514A))
@@ -190,6 +194,8 @@
       (value 22)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C23345))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4CEA2C))
@@ -197,6 +203,8 @@
       (value 22)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C23345))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4D569E))
@@ -204,6 +212,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C15849"))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F505658))
@@ -211,6 +221,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C14663))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F553541))
@@ -218,6 +230,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C14663))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F563AB9))
@@ -225,6 +239,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C14663))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F56C2E2))
@@ -232,6 +248,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C14663))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5859DE))
@@ -246,6 +264,8 @@
       (value 22pF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C14663"))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F67AD19))
@@ -253,6 +273,8 @@
       (value 22pF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C14663"))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F67BDA7))
@@ -260,6 +282,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C25804))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F7BD8F6))
@@ -274,6 +298,8 @@
       (value "500 mA")
       (footprint Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C151162))
       (libsource (lib Device) (part Polyfuse_Small) (description "Resettable fuse, polymeric positive temperature coefficient, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F81B8F3))
@@ -281,6 +307,8 @@
       (value ATmega32U4-AU)
       (footprint Package_QFP:TQFP-44_10x10mm_P0.8mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf)
+      (fields
+        (field (name "JLCPCB Parts") C44854))
       (libsource (lib MCU_Microchip_ATmega) (part ATmega32U4-AU) (description "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F47D521))
@@ -288,6 +316,8 @@
       (value 10uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") C19702))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F691F2B))
@@ -295,6 +325,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4A6053))
@@ -302,6 +334,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4ED018))
@@ -309,6 +343,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4DED81))
@@ -316,6 +352,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4C2B5E))
@@ -323,6 +361,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F513E9F))
@@ -330,6 +370,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F513EA7))
@@ -337,6 +379,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F513EAF))
@@ -344,6 +388,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F513EB7))
@@ -351,6 +397,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5244BE))
@@ -358,6 +406,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5244C6))
@@ -365,6 +415,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5244CE))
@@ -372,6 +424,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5244D6))
@@ -379,6 +433,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F534759))
@@ -386,6 +442,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F534761))
@@ -393,6 +451,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F534769))
@@ -400,6 +460,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F534771))
@@ -407,6 +469,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F544597))
@@ -414,6 +478,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F54459F))
@@ -421,6 +487,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5445A7))
@@ -428,6 +496,8 @@
       (value D)
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
+      (fields
+        (field (name "JLCPCB Parts") " C81598"))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5445AF)))
