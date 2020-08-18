@@ -50,32 +50,32 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5F1BF11F
-P 5700 900
-F 0 "#PWR010" H 5700 650 50  0001 C CNN
-F 1 "GND" V 5705 772 50  0000 R CNN
-F 2 "" H 5700 900 50  0001 C CNN
-F 3 "" H 5700 900 50  0001 C CNN
-	1    5700 900 
+P 5400 1550
+F 0 "#PWR010" H 5400 1300 50  0001 C CNN
+F 1 "GND" V 5405 1422 50  0000 R CNN
+F 2 "" H 5400 1550 50  0001 C CNN
+F 3 "" H 5400 1550 50  0001 C CNN
+	1    5400 1550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4450 1000 4450 1050
+	4150 1650 4150 1700
 Wire Wire Line
-	4450 1100 4600 1100
+	4150 1750 4300 1750
 $Comp
 L power:GND #PWR09
 U 1 1 5F1C4551
-P 4450 1050
-F 0 "#PWR09" H 4450 800 50  0001 C CNN
-F 1 "GND" V 4455 922 50  0000 R CNN
-F 2 "" H 4450 1050 50  0001 C CNN
-F 3 "" H 4450 1050 50  0001 C CNN
-	1    4450 1050
+P 4150 1700
+F 0 "#PWR09" H 4150 1450 50  0001 C CNN
+F 1 "GND" V 4155 1572 50  0000 R CNN
+F 2 "" H 4150 1700 50  0001 C CNN
+F 3 "" H 4150 1700 50  0001 C CNN
+	1    4150 1700
 	0    1    1    0   
 $EndComp
-Connection ~ 4450 1050
+Connection ~ 4150 1700
 Wire Wire Line
-	4450 1050 4450 1100
+	4150 1700 4150 1750
 $Comp
 L power:VCC #PWR01
 U 1 1 5F1C72AB
@@ -90,12 +90,12 @@ $EndComp
 $Comp
 L power:VCC #PWR011
 U 1 1 5F1C7F3D
-P 5700 1100
-F 0 "#PWR011" H 5700 950 50  0001 C CNN
-F 1 "VCC" V 5700 1300 50  0000 C CNN
-F 2 "" H 5700 1100 50  0001 C CNN
-F 3 "" H 5700 1100 50  0001 C CNN
-	1    5700 1100
+P 5400 1750
+F 0 "#PWR011" H 5400 1600 50  0001 C CNN
+F 1 "VCC" V 5400 1950 50  0000 C CNN
+F 2 "" H 5400 1750 50  0001 C CNN
+F 3 "" H 5400 1750 50  0001 C CNN
+	1    5400 1750
 	0    1    1    0   
 $EndComp
 Text Notes 7350 7500 0    50   Italic 0
@@ -103,11 +103,11 @@ Custom Numpad with Volume Knob and OLED by QT
 Text Notes 10630 7640 0    50   ~ 0
 1
 Wire Wire Line
-	5500 900  5700 900 
+	5200 1550 5400 1550
 Wire Wire Line
-	5500 1100 5700 1100
+	5200 1750 5400 1750
 Wire Wire Line
-	4450 1000 4600 1000
+	4150 1650 4300 1650
 $Comp
 L keyboard_parts:KEYSW K1
 U 1 1 5F1B9756
@@ -718,27 +718,27 @@ Wire Wire Line
 Wire Wire Line
 	8000 5100 8000 5250
 Connection ~ 7000 5250
-Text Label 4600 1400 2    50   ~ 0
+Text Label 4300 2050 2    50   ~ 0
 row0
-Text Label 4600 1500 2    50   ~ 0
+Text Label 4300 2150 2    50   ~ 0
 row1
-Text Label 4600 1600 2    50   ~ 0
+Text Label 4300 2250 2    50   ~ 0
 row2
-Text Label 4600 1700 2    50   ~ 0
+Text Label 4300 2350 2    50   ~ 0
 row3
-Text Label 4600 1800 2    50   ~ 0
+Text Label 4300 2450 2    50   ~ 0
 row4
-Text Label 5500 1600 0    50   ~ 0
+Text Label 5200 2250 0    50   ~ 0
 col0
-Text Label 5500 1700 0    50   ~ 0
+Text Label 5200 2350 0    50   ~ 0
 col1
-Text Label 5500 1800 0    50   ~ 0
+Text Label 5200 2450 0    50   ~ 0
 col2
-Text Label 5500 1900 0    50   ~ 0
+Text Label 5200 2550 0    50   ~ 0
 col3
-NoConn ~ 4600 800 
-NoConn ~ 4600 900 
-NoConn ~ 5500 800 
+NoConn ~ 4300 1450
+NoConn ~ 4300 1550
+NoConn ~ 5200 1450
 Wire Wire Line
 	8700 4600 8800 4600
 Wire Wire Line
@@ -836,9 +836,9 @@ Wire Wire Line
 	1500 5700 1800 5700
 Wire Wire Line
 	1800 5850 1800 5700
-Text Label 4600 1200 2    50   ~ 0
+Text Label 4300 1850 2    50   ~ 0
 SDA
-Text Label 4600 1300 2    50   ~ 0
+Text Label 4300 1950 2    50   ~ 0
 SCL
 Text Label 1500 5500 0    50   ~ 0
 SDA
@@ -847,15 +847,15 @@ SCL
 $Comp
 L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
 U 1 1 5F334F4C
-P 5000 1400
-F 0 "B1" H 5050 2254 45  0000 C CNN
-F 1 "SPARKFUN_PRO_MICRO" H 5050 2170 45  0000 C CNN
-F 2 "SparkFun:SPARKFUN_PRO_MICRO" H 5030 1550 20  0001 C CNN
-F 3 "" H 5160 1615 60  0000 C CNN
-	1    5000 1400
+P 4700 2050
+F 0 "B1" H 4750 2904 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 4750 2820 45  0000 C CNN
+F 2 "SparkFun:SPARKFUN_PRO_MICRO" H 4730 2200 20  0001 C CNN
+F 3 "" H 4860 2265 60  0000 C CNN
+	1    4700 2050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4600 1900
+NoConn ~ 4300 2550
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F3630E0
@@ -867,7 +867,7 @@ F 3 "~" H 1300 6750 50  0001 C CNN
 	1    1300 6550
 	1    0    0    -1  
 $EndComp
-Text Label 5500 1000 0    50   ~ 0
+Text Label 5200 1650 0    50   ~ 0
 RESET_SW
 Text Label 1100 6550 2    50   ~ 0
 RESET_SW
@@ -931,13 +931,13 @@ Text Label 1200 3550 2    50   ~ 0
 encoder_S2B
 Text Label 1200 3350 2    50   ~ 0
 encoder_S2A
-Text Label 5500 1200 0    50   ~ 0
+Text Label 5200 1850 0    50   ~ 0
 encoder_A1
-Text Label 5500 1300 0    50   ~ 0
+Text Label 5200 1950 0    50   ~ 0
 encoder_B1
-Text Label 5500 1400 0    50   ~ 0
+Text Label 5200 2050 0    50   ~ 0
 encoder_A2
-Text Label 5500 1500 0    50   ~ 0
+Text Label 5200 2150 0    50   ~ 0
 encoder_B2
 $Comp
 L Device:Rotary_Encoder_Switch SW4
@@ -1043,81 +1043,82 @@ Wire Wire Line
 Connection ~ 9000 5250
 Wire Wire Line
 	9000 5250 10000 5250
-Text Label 5000 2300 3    50   ~ 0
+Text Label 4700 2950 3    50   ~ 0
 encoder_A3
-Text Label 5100 2300 3    50   ~ 0
+Text Label 4800 2950 3    50   ~ 0
 encoder_B3
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 5F3B7935
-P 3850 4850
-F 0 "H?" V 3804 5000 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3895 5000 50  0000 L CNN
-F 2 "" H 3850 4850 50  0001 C CNN
-F 3 "~" H 3850 4850 50  0001 C CNN
-	1    3850 4850
+P 4650 4000
+F 0 "H1" V 4604 4150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 4695 4150 50  0000 L CNN
+F 2 "" H 4650 4000 50  0001 C CNN
+F 3 "~" H 4650 4000 50  0001 C CNN
+	1    4650 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 5F3BDF72
-P 3850 5150
-F 0 "H?" V 3804 5300 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3895 5300 50  0000 L CNN
-F 2 "" H 3850 5150 50  0001 C CNN
-F 3 "~" H 3850 5150 50  0001 C CNN
-	1    3850 5150
+P 4650 4300
+F 0 "H2" V 4604 4450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 4695 4450 50  0000 L CNN
+F 2 "" H 4650 4300 50  0001 C CNN
+F 3 "~" H 4650 4300 50  0001 C CNN
+	1    4650 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 5F3C2FB9
-P 3850 5450
-F 0 "H?" V 3804 5600 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3895 5600 50  0000 L CNN
-F 2 "" H 3850 5450 50  0001 C CNN
-F 3 "~" H 3850 5450 50  0001 C CNN
-	1    3850 5450
+P 4650 4600
+F 0 "H3" V 4604 4750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 4695 4750 50  0000 L CNN
+F 2 "" H 4650 4600 50  0001 C CNN
+F 3 "~" H 4650 4600 50  0001 C CNN
+	1    4650 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 5F3C8525
-P 3850 5750
-F 0 "H?" V 3804 5900 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3895 5900 50  0000 L CNN
-F 2 "" H 3850 5750 50  0001 C CNN
-F 3 "~" H 3850 5750 50  0001 C CNN
-	1    3850 5750
+P 4650 4900
+F 0 "H4" V 4604 5050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 4695 5050 50  0000 L CNN
+F 2 "" H 4650 4900 50  0001 C CNN
+F 3 "~" H 4650 4900 50  0001 C CNN
+	1    4650 4900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3750 4850 3650 4850
+	4550 4000 4450 4000
 Wire Wire Line
-	3650 4850 3650 5150
+	4450 4000 4450 4300
 Wire Wire Line
-	3650 5150 3750 5150
+	4450 4300 4550 4300
 Wire Wire Line
-	3750 5450 3650 5450
+	4550 4600 4450 4600
 Wire Wire Line
-	3650 5450 3650 5150
-Connection ~ 3650 5150
+	4450 4600 4450 4300
+Connection ~ 4450 4300
 Wire Wire Line
-	3750 5750 3650 5750
+	4550 4900 4450 4900
 Wire Wire Line
-	3650 5750 3650 5450
-Connection ~ 3650 5450
+	4450 4900 4450 4600
+Connection ~ 4450 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 5F3DF00C
-P 3650 5850
-F 0 "#PWR?" H 3650 5600 50  0001 C CNN
-F 1 "GND" H 3655 5677 50  0000 C CNN
-F 2 "" H 3650 5850 50  0001 C CNN
-F 3 "" H 3650 5850 50  0001 C CNN
-	1    3650 5850
+P 4450 5000
+F 0 "#PWR012" H 4450 4750 50  0001 C CNN
+F 1 "GND" H 4455 4827 50  0000 C CNN
+F 2 "" H 4450 5000 50  0001 C CNN
+F 3 "" H 4450 5000 50  0001 C CNN
+	1    4450 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 5750 3650 5850
+	4450 4900 4450 5000
+Connection ~ 4450 4900
 $EndSCHEMATC
