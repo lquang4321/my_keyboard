@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\QT\OneDrive\KiCad\my_keyboard\my_keyboard\my_keyboard.sch</source>
-    <date>8/9/2020 12:20:00 AM</date>
-    <tool>Eeschema (5.1.2)-2</tool>
+    <source>C:\Users\QT\OneDrive\GitHub\my_keyboard\KiCAD Files\my_keyboard.sch</source>
+    <date>8/18/2020 2:21:13 AM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -19,30 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C1">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1C892A</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1CB22A</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1CB538</tstamp>
-    </comp>
     <comp ref="K1">
       <value>KEYSW</value>
       <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
@@ -50,9 +26,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1B9756</tstamp>
     </comp>
-    <comp ref="D20">
+    <comp ref="D1">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -65,9 +41,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1BE12C</tstamp>
     </comp>
-    <comp ref="D21">
+    <comp ref="D2">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -80,9 +56,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1C7125</tstamp>
     </comp>
-    <comp ref="D22">
+    <comp ref="D3">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -95,9 +71,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1C7133</tstamp>
     </comp>
-    <comp ref="D23">
+    <comp ref="D4">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -110,9 +86,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1CD4BE</tstamp>
     </comp>
-    <comp ref="D24">
+    <comp ref="D5">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,9 +101,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1D5D26</tstamp>
     </comp>
-    <comp ref="D25">
+    <comp ref="D6">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -140,9 +116,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1D5D34</tstamp>
     </comp>
-    <comp ref="D26">
+    <comp ref="D7">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -155,9 +131,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1D5D42</tstamp>
     </comp>
-    <comp ref="D27">
+    <comp ref="D8">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -170,9 +146,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1D5D50</tstamp>
     </comp>
-    <comp ref="D28">
+    <comp ref="D9">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -185,9 +161,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1D5D5E</tstamp>
     </comp>
-    <comp ref="D29">
+    <comp ref="D10">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -200,9 +176,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AF85</tstamp>
     </comp>
-    <comp ref="D30">
+    <comp ref="D11">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -215,9 +191,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AF93</tstamp>
     </comp>
-    <comp ref="D31">
+    <comp ref="D12">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -230,9 +206,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AFA1</tstamp>
     </comp>
-    <comp ref="D32">
+    <comp ref="D13">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -245,9 +221,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AFAF</tstamp>
     </comp>
-    <comp ref="D33">
+    <comp ref="D14">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -260,9 +236,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AFBD</tstamp>
     </comp>
-    <comp ref="D37">
+    <comp ref="D18">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -275,9 +251,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AFCB</tstamp>
     </comp>
-    <comp ref="D34">
+    <comp ref="D16">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
@@ -290,15 +266,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AFE7</tstamp>
     </comp>
-    <comp ref="D35">
+    <comp ref="D17">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F20AFED</tstamp>
     </comp>
-    <comp ref="SW1">
+    <comp ref="SW2">
       <value>Rotary_Encoder_Switch</value>
       <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
       <datasheet>~</datasheet>
@@ -306,64 +282,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F33B445</tstamp>
     </comp>
-    <comp ref="D36">
+    <comp ref="D19">
       <value>DIODE</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F35C2B8</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>LED</value>
-      <footprint>LED_THT:LED_D3.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F3792AD</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>R_US</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F399E84</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F39B352</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>100uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F76A86B</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>470_Ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7937A2</tstamp>
-    </comp>
-    <comp ref="B1">
-      <value>SPARKFUN_PRO_MICRO</value>
-      <footprint>SparkFun:SPARKFUN_PRO_MICRO</footprint>
-      <libsource lib="SparkFun-Boards" part="SPARKFUN_PRO_MICRO" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F334F4C</tstamp>
-    </comp>
-    <comp ref="SW2">
+    <comp ref="SW1">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button_Switch_SMD:SW_PUSH_4_5.1x5.1mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -376,77 +305,220 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F3C84E9</tstamp>
     </comp>
-    <comp ref="D4">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="SW3">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F33A534</tstamp>
+      <tstamp>5F3F55DA</tstamp>
     </comp>
-    <comp ref="D6">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="SW4">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F340298</tstamp>
+      <tstamp>5F4333AF</tstamp>
     </comp>
-    <comp ref="D8">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="D15">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F345F30</tstamp>
+      <tstamp>5F46290E</tstamp>
     </comp>
-    <comp ref="D9">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="D20">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F359DB2</tstamp>
+      <tstamp>5F4670EB</tstamp>
     </comp>
-    <comp ref="D7">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F3623F0</tstamp>
+      <tstamp>5F3B7935</tstamp>
     </comp>
-    <comp ref="D5">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F36846A</tstamp>
+      <tstamp>5F3BDF72</tstamp>
     </comp>
-    <comp ref="D3">
-      <value>WS2812B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F36E3EC</tstamp>
+      <tstamp>5F3C2FB9</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3C8525</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4B514A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CEA2C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4D569E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F505658</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F553541</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F563AB9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F56C2E2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5859DE</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63EFC3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F67AD19</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F67BDA7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7BD8F6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Mini</value>
+      <footprint>random-keyboard-parts:Molex-0548190589</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Mini" description="USB Mini Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7FB99A</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500 mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F81B8F3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F47D521</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F691F2B</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Device" part="CP1">
-      <description>Polarized capacitor, US symbol</description>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
       <docs>~</docs>
       <footprints>
-        <fp>CP_*</fp>
+        <fp>USB*</fp>
       </footprints>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP1</field>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
@@ -464,32 +536,48 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
       <docs>~</docs>
       <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
+        <fp>Crystal*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_US">
-      <description>Resistor, US symbol</description>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
       <docs>~</docs>
       <footprints>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_US</field>
+        <field name="Value">R</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -514,61 +602,81 @@
         <pin num="S2" name="S2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LED" part="WS2812B">
-      <description>RGB LED with integrated controller</description>
-      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-AU">
+      <aliases>
+        <alias>ATmega16U4RC-AU</alias>
+        <alias>ATmega32U4-AU</alias>
+        <alias>ATmega32U4RC-AU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
       <footprints>
-        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">WS2812B</field>
-        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
       </fields>
       <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="VSS" type="power_in"/>
-        <pin num="4" name="DIN" type="input"/>
+        <pin num="1" name="PE6" type="3state"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="3state"/>
+        <pin num="9" name="PB1" type="3state"/>
+        <pin num="10" name="PB2" type="3state"/>
+        <pin num="11" name="PB3" type="3state"/>
+        <pin num="12" name="PB7" type="3state"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="3state"/>
+        <pin num="19" name="PD1" type="3state"/>
+        <pin num="20" name="PD2" type="3state"/>
+        <pin num="21" name="PD3" type="3state"/>
+        <pin num="22" name="PD5" type="3state"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="3state"/>
+        <pin num="26" name="PD6" type="3state"/>
+        <pin num="27" name="PD7" type="3state"/>
+        <pin num="28" name="PB4" type="3state"/>
+        <pin num="29" name="PB5" type="3state"/>
+        <pin num="30" name="PB6" type="3state"/>
+        <pin num="31" name="PC6" type="3state"/>
+        <pin num="32" name="PC7" type="3state"/>
+        <pin num="33" name="~HWB~/PE2" type="3state"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="3state"/>
+        <pin num="37" name="PF6" type="3state"/>
+        <pin num="38" name="PF5" type="3state"/>
+        <pin num="39" name="PF4" type="3state"/>
+        <pin num="40" name="PF1" type="3state"/>
+        <pin num="41" name="PF0" type="3state"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SparkFun-Boards" part="SPARKFUN_PRO_MICRO">
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
       <footprints>
-        <fp>*SPARKFUN_PRO_MICRO*</fp>
+        <fp>MountingHole*Pad*</fp>
       </footprints>
       <fields>
-        <field name="Reference">B</field>
-        <field name="Value">SPARKFUN_PRO_MICRO</field>
-        <field name="Footprint">SPARKFUN_PRO_MICRO</field>
-        <field name="Datasheet">XXX-00000</field>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
       </fields>
       <pins>
-        <pin num="1" name="TXO" type="BiDi"/>
-        <pin num="2" name="RXI" type="BiDi"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="2" type="BiDi"/>
-        <pin num="6" name="*3" type="BiDi"/>
-        <pin num="7" name="4" type="BiDi"/>
-        <pin num="8" name="*5" type="BiDi"/>
-        <pin num="9" name="*6" type="BiDi"/>
-        <pin num="10" name="7" type="BiDi"/>
-        <pin num="11" name="8" type="BiDi"/>
-        <pin num="12" name="*9" type="BiDi"/>
-        <pin num="13" name="*10" type="BiDi"/>
-        <pin num="14" name="16(MOSI)" type="BiDi"/>
-        <pin num="15" name="14(MISO)" type="BiDi"/>
-        <pin num="16" name="15(SCK)" type="BiDi"/>
-        <pin num="17" name="A0" type="BiDi"/>
-        <pin num="18" name="A1" type="BiDi"/>
-        <pin num="19" name="A2" type="BiDi"/>
-        <pin num="20" name="A3" type="BiDi"/>
-        <pin num="21" name="VCC" type="power_in"/>
-        <pin num="22" name="RESET" type="BiDi"/>
-        <pin num="23" name="GND" type="power_in"/>
-        <pin num="24" name="RAW" type="power_in"/>
-        <pin num="25" name="TX_L" type="BiDi"/>
-        <pin num="26" name="RX_L" type="BiDi"/>
+        <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Switch" part="SW_Push">
@@ -619,14 +727,17 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="LED">
-      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
     </library>
-    <library logical="SparkFun-Boards">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Sparkfun/SparkFun-Boards.lib</uri>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
     <library logical="Switch">
       <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
@@ -642,262 +753,300 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="VCC">
-      <node ref="D9" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="C5" pin="1"/>
+    <net code="1" name="+5V">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="34"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="7"/>
+      <node ref="DS1" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="C8" pin="1"/>
       <node ref="C3" pin="1"/>
       <node ref="C1" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="B1" pin="21"/>
-      <node ref="C4" pin="1"/>
-      <node ref="DS1" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
     </net>
-    <net code="2" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
+    <net code="2" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="33"/>
       <node ref="R4" pin="2"/>
     </net>
-    <net code="3" name="GND">
-      <node ref="D9" pin="3"/>
-      <node ref="D6" pin="3"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="D7" pin="3"/>
-      <node ref="B1" pin="23"/>
-      <node ref="B1" pin="3"/>
-      <node ref="DS1" pin="2"/>
-      <node ref="B1" pin="4"/>
-      <node ref="D8" pin="3"/>
-      <node ref="SW1" pin="C"/>
-      <node ref="D4" pin="3"/>
-      <node ref="D3" pin="3"/>
-      <node ref="D5" pin="3"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="D1" pin="3"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C1" pin="2"/>
-    </net>
-    <net code="4" name="Net-(D1-Pad4)">
-      <node ref="D1" pin="4"/>
+    <net code="4" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="5" name="Net-(D1-Pad2)">
-      <node ref="D4" pin="4"/>
-      <node ref="D1" pin="2"/>
+    <net code="5" name="GND">
+      <node ref="SW1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW4" pin="C"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="23"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="35"/>
+      <node ref="SW2" pin="C"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="DS1" pin="2"/>
+      <node ref="SW3" pin="C"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H4" pin="1"/>
     </net>
-    <net code="6" name="/RGB_DI">
-      <node ref="B1" pin="20"/>
-      <node ref="R1" pin="2"/>
+    <net code="6" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="7" name="/NUM_LCK_LED">
-      <node ref="D2" pin="2"/>
-      <node ref="B1" pin="19"/>
+    <net code="7" name="/encoder_S3B">
+      <node ref="SW4" pin="S1"/>
+      <node ref="D20" pin="1"/>
     </net>
-    <net code="8" name="/encoder_A">
-      <node ref="SW1" pin="B"/>
-      <node ref="B1" pin="17"/>
+    <net code="8" name="/encoder_B3">
+      <node ref="U1" pin="38"/>
+      <node ref="SW4" pin="A"/>
     </net>
-    <net code="9" name="/col0">
-      <node ref="K5" pin="1"/>
-      <node ref="K2" pin="1"/>
-      <node ref="K4" pin="1"/>
-      <node ref="K3" pin="1"/>
-      <node ref="K1" pin="1"/>
-      <node ref="B1" pin="16"/>
+    <net code="9" name="/encoder_S2B">
+      <node ref="SW3" pin="S1"/>
+      <node ref="D15" pin="1"/>
     </net>
-    <net code="10" name="/col1">
-      <node ref="K10" pin="1"/>
-      <node ref="K6" pin="1"/>
-      <node ref="K9" pin="1"/>
-      <node ref="K7" pin="1"/>
-      <node ref="K8" pin="1"/>
-      <node ref="B1" pin="15"/>
+    <net code="10" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
     </net>
-    <net code="11" name="/col2">
+    <net code="11" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="14" name="/encoder_B2">
+      <node ref="U1" pin="36"/>
+      <node ref="SW3" pin="A"/>
+    </net>
+    <net code="15" name="/encoder_A2">
+      <node ref="SW3" pin="B"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="16" name="/encoder_A3">
+      <node ref="SW4" pin="B"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="17" name="/SCL">
+      <node ref="U1" pin="18"/>
+      <node ref="DS1" pin="3"/>
+    </net>
+    <net code="18" name="/col2">
+      <node ref="SW3" pin="S2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D8" pin="2"/>
       <node ref="K12" pin="1"/>
-      <node ref="K14" pin="1"/>
-      <node ref="K13" pin="1"/>
       <node ref="K11" pin="1"/>
-      <node ref="D36" pin="2"/>
-      <node ref="B1" pin="14"/>
+      <node ref="K14" pin="1"/>
+      <node ref="D13" pin="2"/>
+      <node ref="K13" pin="1"/>
+      <node ref="D18" pin="2"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="12" name="/col3">
-      <node ref="B1" pin="13"/>
-      <node ref="SW1" pin="S1"/>
+    <net code="19" name="/col3">
       <node ref="K16" pin="1"/>
       <node ref="K15" pin="1"/>
+      <node ref="SW4" pin="S2"/>
+      <node ref="U1" pin="11"/>
       <node ref="K17" pin="1"/>
+      <node ref="SW2" pin="S2"/>
     </net>
-    <net code="13" name="Net-(B1-Pad12)">
-      <node ref="B1" pin="12"/>
+    <net code="20" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="14" name="/row4">
-      <node ref="D24" pin="2"/>
-      <node ref="B1" pin="11"/>
-      <node ref="D29" pin="2"/>
-    </net>
-    <net code="15" name="/row3">
-      <node ref="B1" pin="10"/>
-      <node ref="D28" pin="2"/>
-      <node ref="D23" pin="2"/>
-      <node ref="D37" pin="2"/>
-      <node ref="D33" pin="2"/>
-    </net>
-    <net code="16" name="Net-(B1-Pad1)">
-      <node ref="B1" pin="1"/>
-    </net>
-    <net code="17" name="/encoder_B">
-      <node ref="B1" pin="18"/>
-      <node ref="SW1" pin="A"/>
-    </net>
-    <net code="18" name="/encoder_S2">
-      <node ref="D36" pin="1"/>
-      <node ref="SW1" pin="S2"/>
-    </net>
-    <net code="19" name="Net-(B1-Pad24)">
-      <node ref="B1" pin="24"/>
-    </net>
-    <net code="20" name="Net-(B1-Pad2)">
-      <node ref="B1" pin="2"/>
-    </net>
-    <net code="21" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2"/>
-      <node ref="D9" pin="4"/>
-    </net>
-    <net code="22" name="Net-(D3-Pad4)">
-      <node ref="D3" pin="4"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="23" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="24" name="Net-(D5-Pad4)">
-      <node ref="D5" pin="4"/>
-      <node ref="D7" pin="2"/>
-    </net>
-    <net code="25" name="Net-(D7-Pad4)">
-      <node ref="D7" pin="4"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="26" name="/row0">
-      <node ref="D25" pin="2"/>
-      <node ref="D20" pin="2"/>
-      <node ref="D34" pin="2"/>
-      <node ref="D30" pin="2"/>
-      <node ref="B1" pin="7"/>
-    </net>
-    <net code="27" name="/RESET_SW">
-      <node ref="SW2" pin="1"/>
-      <node ref="B1" pin="22"/>
-    </net>
-    <net code="28" name="Net-(B1-Pad26)">
-      <node ref="B1" pin="26"/>
-    </net>
-    <net code="29" name="Net-(B1-Pad25)">
-      <node ref="B1" pin="25"/>
-    </net>
-    <net code="30" name="/row2">
-      <node ref="D22" pin="2"/>
-      <node ref="B1" pin="9"/>
-      <node ref="D27" pin="2"/>
-      <node ref="D32" pin="2"/>
-    </net>
-    <net code="31" name="/row1">
-      <node ref="B1" pin="8"/>
-      <node ref="D35" pin="2"/>
-      <node ref="D31" pin="2"/>
-      <node ref="D26" pin="2"/>
-      <node ref="D21" pin="2"/>
-    </net>
-    <net code="32" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="D8" pin="4"/>
-    </net>
-    <net code="33" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="D6" pin="4"/>
-    </net>
-    <net code="34" name="/SDA">
-      <node ref="B1" pin="5"/>
+    <net code="21" name="/SDA">
+      <node ref="U1" pin="19"/>
       <node ref="DS1" pin="4"/>
     </net>
-    <net code="35" name="/SCL">
-      <node ref="DS1" pin="3"/>
-      <node ref="B1" pin="6"/>
+    <net code="22" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="36" name="Net-(D25-Pad1)">
-      <node ref="K6" pin="2"/>
-      <node ref="D25" pin="1"/>
+    <net code="23" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="37" name="Net-(D27-Pad1)">
-      <node ref="D27" pin="1"/>
-      <node ref="K8" pin="2"/>
+    <net code="24" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="38" name="Net-(D26-Pad1)">
-      <node ref="K7" pin="2"/>
-      <node ref="D26" pin="1"/>
+    <net code="25" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
     </net>
-    <net code="39" name="Net-(D24-Pad1)">
-      <node ref="D24" pin="1"/>
-      <node ref="K5" pin="2"/>
+    <net code="26" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
     </net>
-    <net code="40" name="Net-(D23-Pad1)">
-      <node ref="D23" pin="1"/>
+    <net code="27" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="13"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C5-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="30" name="D+">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="31" name="D-">
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="32" name="VCC">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D18-Pad1)">
+      <node ref="K17" pin="2"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D16-Pad1)">
+      <node ref="K15" pin="2"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="35" name="Net-(D17-Pad1)">
+      <node ref="K16" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="36" name="/row1">
+      <node ref="D7" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(D12-Pad1)">
+      <node ref="K12" pin="2"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D13-Pad1)">
+      <node ref="K13" pin="2"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D14-Pad1)">
+      <node ref="K14" pin="2"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="40" name="/col0">
+      <node ref="U1" pin="8"/>
+      <node ref="K1" pin="1"/>
+      <node ref="K4" pin="1"/>
+      <node ref="K5" pin="1"/>
+      <node ref="K2" pin="1"/>
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
       <node ref="K4" pin="2"/>
     </net>
-    <net code="41" name="Net-(D32-Pad1)">
-      <node ref="D32" pin="1"/>
-      <node ref="K13" pin="2"/>
+    <net code="42" name="Net-(D5-Pad1)">
+      <node ref="K5" pin="2"/>
+      <node ref="D5" pin="1"/>
     </net>
-    <net code="42" name="Net-(D31-Pad1)">
-      <node ref="D31" pin="1"/>
-      <node ref="K12" pin="2"/>
+    <net code="43" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="K6" pin="2"/>
     </net>
-    <net code="43" name="Net-(D30-Pad1)">
-      <node ref="K11" pin="2"/>
-      <node ref="D30" pin="1"/>
+    <net code="44" name="Net-(D1-Pad1)">
+      <node ref="K1" pin="2"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="44" name="Net-(D29-Pad1)">
-      <node ref="D29" pin="1"/>
+    <net code="45" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="K3" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D9-Pad1)">
+      <node ref="K9" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
       <node ref="K10" pin="2"/>
     </net>
-    <net code="45" name="Net-(D28-Pad1)">
-      <node ref="K9" pin="2"/>
-      <node ref="D28" pin="1"/>
+    <net code="49" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="K11" pin="2"/>
     </net>
-    <net code="46" name="Net-(D22-Pad1)">
-      <node ref="K3" pin="2"/>
-      <node ref="D22" pin="1"/>
+    <net code="50" name="Net-(D8-Pad1)">
+      <node ref="K8" pin="2"/>
+      <node ref="D8" pin="1"/>
     </net>
-    <net code="47" name="Net-(D21-Pad1)">
-      <node ref="K2" pin="2"/>
-      <node ref="D21" pin="1"/>
+    <net code="51" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="K7" pin="2"/>
     </net>
-    <net code="48" name="Net-(D20-Pad1)">
-      <node ref="D20" pin="1"/>
-      <node ref="K1" pin="2"/>
+    <net code="52" name="/encoder_S1B">
+      <node ref="D19" pin="1"/>
+      <node ref="SW2" pin="S1"/>
     </net>
-    <net code="49" name="Net-(D37-Pad1)">
-      <node ref="K17" pin="2"/>
-      <node ref="D37" pin="1"/>
+    <net code="53" name="/encoder_A1">
+      <node ref="SW2" pin="B"/>
+      <node ref="U1" pin="41"/>
     </net>
-    <net code="50" name="Net-(D35-Pad1)">
-      <node ref="D35" pin="1"/>
-      <node ref="K16" pin="2"/>
+    <net code="54" name="/encoder_B1">
+      <node ref="U1" pin="40"/>
+      <node ref="SW2" pin="A"/>
     </net>
-    <net code="51" name="Net-(D34-Pad1)">
-      <node ref="D34" pin="1"/>
-      <node ref="K15" pin="2"/>
+    <net code="55" name="/row0">
+      <node ref="D16" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U1" pin="28"/>
+      <node ref="D11" pin="2"/>
     </net>
-    <net code="52" name="Net-(D33-Pad1)">
-      <node ref="D33" pin="1"/>
-      <node ref="K14" pin="2"/>
+    <net code="56" name="/row3">
+      <node ref="D4" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="57" name="/col1">
+      <node ref="K9" pin="1"/>
+      <node ref="K6" pin="1"/>
+      <node ref="K7" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="K10" pin="1"/>
+      <node ref="K8" pin="1"/>
+    </net>
+    <net code="58" name="/row4">
+      <node ref="D5" pin="2"/>
+      <node ref="U1" pin="31"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D15" pin="2"/>
     </net>
   </nets>
 </export>
