@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:my_keyboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1047,4 +1047,77 @@ Text Label 5000 2300 3    50   ~ 0
 encoder_A3
 Text Label 5100 2300 3    50   ~ 0
 encoder_B3
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F3B7935
+P 3850 4850
+F 0 "H?" V 3804 5000 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3895 5000 50  0000 L CNN
+F 2 "" H 3850 4850 50  0001 C CNN
+F 3 "~" H 3850 4850 50  0001 C CNN
+	1    3850 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F3BDF72
+P 3850 5150
+F 0 "H?" V 3804 5300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3895 5300 50  0000 L CNN
+F 2 "" H 3850 5150 50  0001 C CNN
+F 3 "~" H 3850 5150 50  0001 C CNN
+	1    3850 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F3C2FB9
+P 3850 5450
+F 0 "H?" V 3804 5600 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3895 5600 50  0000 L CNN
+F 2 "" H 3850 5450 50  0001 C CNN
+F 3 "~" H 3850 5450 50  0001 C CNN
+	1    3850 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F3C8525
+P 3850 5750
+F 0 "H?" V 3804 5900 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3895 5900 50  0000 L CNN
+F 2 "" H 3850 5750 50  0001 C CNN
+F 3 "~" H 3850 5750 50  0001 C CNN
+	1    3850 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4850 3650 4850
+Wire Wire Line
+	3650 4850 3650 5150
+Wire Wire Line
+	3650 5150 3750 5150
+Wire Wire Line
+	3750 5450 3650 5450
+Wire Wire Line
+	3650 5450 3650 5150
+Connection ~ 3650 5150
+Wire Wire Line
+	3750 5750 3650 5750
+Wire Wire Line
+	3650 5750 3650 5450
+Connection ~ 3650 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5F3DF00C
+P 3650 5850
+F 0 "#PWR?" H 3650 5600 50  0001 C CNN
+F 1 "GND" H 3655 5677 50  0000 C CNN
+F 2 "" H 3650 5850 50  0001 C CNN
+F 3 "" H 3650 5850 50  0001 C CNN
+	1    3650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5750 3650 5850
 $EndSCHEMATC
