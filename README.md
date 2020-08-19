@@ -6,6 +6,6 @@ A standard 17-key numpad in 5x4 config, num lock indicator LED, and a media volu
 Make example: 
 
     make my_keyboard:default
-
+# Schematic
 ![GitHub Logo](/Schematic.png)
-Format: ![Alt Text](url)
+
